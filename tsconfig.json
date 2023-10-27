@@ -27,7 +27,9 @@
     "**/*.ts",
     "**/*.tsx",
     ".next/types/**/*.ts",
-    "app/api/prompt/route.js"
+    "app/api/prompt/route.js",
+    "app/api/prompt/new/route.js",
+    "app/api/prompt/[id]/route.js"
   ],
   "exclude": ["node_modules"]
 }
